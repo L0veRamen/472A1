@@ -16,3 +16,76 @@ Class 2: Precision=0.51, Recall=0.31, F1=0.38
 (C) Average Weighted F1: 0.47, Variance: 0.00
 *************************
 
+***** Base-DT *****
+(B) Confusion Matrix:
+[[218  24  88]
+ [ 37 243  52]
+ [218  49 116]]
+(C) Precision, Recall, F1-measure for each class:
+Class 0: Precision=0.46, Recall=0.66, F1=0.54
+Class 1: Precision=0.77, Recall=0.73, F1=0.75
+Class 2: Precision=0.45, Recall=0.30, F1=0.36
+(D) Accuracy: 0.55, Macro-average F1: 0.55, Weighted-average F1: 0.54
+*************************
+
+***** Base-DT Multiple Runs (5 times) *****
+(A) Average Accuracy: 0.53, Variance: 0.00
+(B) Average Macro F1: 0.49, Variance: 0.00
+(C) Average Weighted F1: 0.49, Variance: 0.00
+*************************
+
+***** Top-DT *****
+(B) Confusion Matrix:
+[[ 85  44 211]
+ [ 25 258  52]
+ [ 46  69 255]]
+(C) Precision, Recall, F1-measure for each class:
+Class 0: Precision=0.54, Recall=0.25, F1=0.34
+Class 1: Precision=0.70, Recall=0.77, F1=0.73
+Class 2: Precision=0.49, Recall=0.69, F1=0.57
+(D) Accuracy: 0.57, Macro-average F1: 0.55, Weighted-average F1: 0.55
+*************************
+
+***** Top-DT Multiple Runs (5 times) *****
+(A) Average Accuracy: 0.52, Variance: 0.00
+(B) Average Macro F1: 0.51, Variance: 0.00
+(C) Average Weighted F1: 0.51, Variance: 0.00
+*************************
+
+***** Base-MLP *****
+(B) Confusion Matrix:
+[[  2  43 275]
+ [  0 248 107]
+ [  3  65 302]]
+(C) Precision, Recall, F1-measure for each class:
+Class 0: Precision=0.40, Recall=0.01, F1=0.01
+Class 1: Precision=0.70, Recall=0.70, F1=0.70
+Class 2: Precision=0.44, Recall=0.82, F1=0.57
+(D) Accuracy: 0.53, Macro-average F1: 0.43, Weighted-average F1: 0.44
+*************************
+
+***** Base-MLP Multiple Runs (5 times) *****
+(A) Average Accuracy: 0.52, Variance: 0.00
+(B) Average Macro F1: 0.42, Variance: 0.00
+(C) Average Weighted F1: 0.43, Variance: 0.00
+*************************
+
+***** Top-MLP *****
+Best Parameters: {'activation': 'tanh', 'hidden_layer_sizes': (30, 50), 'solver': 'adam'}
+(B) Confusion Matrix:
+[[165  27 116]
+ [ 40 239  45]
+ [173  73 167]]
+(C) Precision, Recall, F1-measure for each class:
+Class 0: Precision=0.44, Recall=0.54, F1=0.48
+Class 1: Precision=0.71, Recall=0.74, F1=0.72
+Class 2: Precision=0.51, Recall=0.40, F1=0.45
+(D) Accuracy: 0.55, Macro-average F1: 0.55, Weighted-average F1: 0.54
+*************************
+
+***** Top-MLP Multiple Runs (5 times) *****
+(A) Average Accuracy: 0.54, Variance: 0.00
+(B) Average Macro F1: 0.48, Variance: 0.00
+(C) Average Weighted F1: 0.48, Variance: 0.00
+*************************
+

@@ -16,3 +16,76 @@ Class 2: Precision=1.00, Recall=1.00, F1=1.00
 (C) Average Weighted F1: 0.99, Variance: 0.00
 *************************
 
+***** Base-DT *****
+(B) Confusion Matrix:
+[[34  0  0]
+ [ 0 14  0]
+ [ 0  0 36]]
+(C) Precision, Recall, F1-measure for each class:
+Class 0: Precision=1.00, Recall=1.00, F1=1.00
+Class 1: Precision=1.00, Recall=1.00, F1=1.00
+Class 2: Precision=1.00, Recall=1.00, F1=1.00
+(D) Accuracy: 1.00, Macro-average F1: 1.00, Weighted-average F1: 1.00
+*************************
+
+***** Base-DT Multiple Runs (5 times) *****
+(A) Average Accuracy: 0.97, Variance: 0.00
+(B) Average Macro F1: 0.97, Variance: 0.00
+(C) Average Weighted F1: 0.97, Variance: 0.00
+*************************
+
+***** Top-DT *****
+(B) Confusion Matrix:
+[[35  0  0]
+ [ 0 17  0]
+ [ 0  0 32]]
+(C) Precision, Recall, F1-measure for each class:
+Class 0: Precision=1.00, Recall=1.00, F1=1.00
+Class 1: Precision=1.00, Recall=1.00, F1=1.00
+Class 2: Precision=1.00, Recall=1.00, F1=1.00
+(D) Accuracy: 1.00, Macro-average F1: 1.00, Weighted-average F1: 1.00
+*************************
+
+***** Top-DT Multiple Runs (5 times) *****
+(A) Average Accuracy: 0.98, Variance: 0.00
+(B) Average Macro F1: 0.98, Variance: 0.00
+(C) Average Weighted F1: 0.98, Variance: 0.00
+*************************
+
+***** Base-MLP *****
+(B) Confusion Matrix:
+[[34  0  0]
+ [22  0  0]
+ [28  0  0]]
+(C) Precision, Recall, F1-measure for each class:
+Class 0: Precision=0.40, Recall=1.00, F1=0.58
+Class 1: Precision=0.00, Recall=0.00, F1=0.00
+Class 2: Precision=0.00, Recall=0.00, F1=0.00
+(D) Accuracy: 0.40, Macro-average F1: 0.19, Weighted-average F1: 0.23
+*************************
+
+***** Base-MLP Multiple Runs (5 times) *****
+(A) Average Accuracy: 0.42, Variance: 0.00
+(B) Average Macro F1: 0.20, Variance: 0.00
+(C) Average Weighted F1: 0.25, Variance: 0.00
+*************************
+
+***** Top-MLP *****
+Best Parameters: {'activation': 'logistic', 'hidden_layer_sizes': (30, 50), 'solver': 'adam'}
+(B) Confusion Matrix:
+[[42  0  0]
+ [11  0  0]
+ [31  0  0]]
+(C) Precision, Recall, F1-measure for each class:
+Class 0: Precision=0.50, Recall=1.00, F1=0.67
+Class 1: Precision=0.00, Recall=0.00, F1=0.00
+Class 2: Precision=0.00, Recall=0.00, F1=0.00
+(D) Accuracy: 0.50, Macro-average F1: 0.22, Weighted-average F1: 0.33
+*************************
+
+***** Top-MLP Multiple Runs (5 times) *****
+(A) Average Accuracy: 0.54, Variance: 0.01
+(B) Average Macro F1: 0.33, Variance: 0.02
+(C) Average Weighted F1: 0.41, Variance: 0.02
+*************************
+
