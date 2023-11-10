@@ -1,0 +1,18 @@
+***** Base-DT *****
+(B) Confusion Matrix:
+[[205  26  61]
+ [ 44 257  57]
+ [218  55 122]]
+(C) Precision, Recall, F1-measure for each class:
+Class 0: Precision=0.44, Recall=0.70, F1=0.54
+Class 1: Precision=0.76, Recall=0.72, F1=0.74
+Class 2: Precision=0.51, Recall=0.31, F1=0.38
+(D) Accuracy: 0.56, Macro-average F1: 0.55, Weighted-average F1: 0.55
+*************************
+
+***** Base-DT Multiple Runs (5 times) *****
+(A) Average Accuracy: 0.53, Variance: 0.00
+(B) Average Macro F1: 0.47, Variance: 0.00
+(C) Average Weighted F1: 0.47, Variance: 0.00
+*************************
+
